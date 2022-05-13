@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-task-two',
   templateUrl: './task-two.component.html',
-  styleUrls: ['./task-two.component.css'],
+  styleUrls: ['./task-two.component.css']
 })
 export class TaskTwoComponent implements OnInit {
   prodectList: any;
@@ -21,4 +21,5 @@ export class TaskTwoComponent implements OnInit {
   ngOnInit() {
     this.display('');
   }
+
 }
